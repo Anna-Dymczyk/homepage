@@ -1,0 +1,15 @@
+.section {
+    border-bottom: 2px groove black;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.section__header {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.section__break {
+    margin-left: 20px;
+    margin-right: 20px;
+}

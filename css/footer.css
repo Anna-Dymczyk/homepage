@@ -1,0 +1,13 @@
+.footer {
+    background-color: rgb(10, 10, 10);
+    color: rgb(177, 177, 177);
+    padding: 20px 0px;
+    }
+
+.footer__container {
+    font-style: italic;
+    text-align: right;
+    max-width: 1000px;
+    padding: 10px;
+    margin: auto;
+}

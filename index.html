@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kurs Frontend Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/body.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
+  <link href="css/navigation.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/section.css" rel="stylesheet">
+  <link href="css/article.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+  <link href="css/button.css" rel="stylesheet">
+  <link href="css/table.css" rel="stylesheet">
+  <link href="css/js.css" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="header__container">
+      <h1 class="header__header"><i>Frontend Developer</i> od podstaw z youcode.pl</h1>
+      <span class="header__paragraph">....czyli moja przeprawa od "absolutnego zera" do <i>Frontend
+          Developera</i> 😃</span>
+    </div>
+  </header>
+  <nav class="navigation">
+    <div class="navigation__container">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a class="navigation__link" href="#Wstęp">Wstęp</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="#Parę-słów-o-mnie">Parę słów o mnie</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="#Mój-progress">Mój <i>progress</i></a></li>
+      </ul>
+    </div>
+  </nav>
+  <main class="main">
+    <section class="section" id="Wstęp">
+      <h2 class="section__header">Wstęp</h2>
+      <article class="article">
+        <p class="article__paragraph">Strona ta jest jednym z narzędzi mojej nauki, powstała <strong> tylko i
+            wyłącznie</strong>
+          w tym celu i
+          stanowi
+          efekt wizualny
+          szeregu tworzonych przeze mnie plików i kodów. Być może w przyszłości zyska formę i treść , która pozwoli mi
+          na
+          pokazanie jej w ramach np. szukania pracy. Obecnie jest to strona "robocza" , nie do końca jeszcze wiem , jaką
+          treść
+          chcę/powinnam/mogę tu ostatecznie zamieścić , więc wiele informacji obecnie tu zawartych może być zbędnych,
+          chaotycznych, itd. , ale niestety muszę na czymś pracować i uczyć się 🙂, natomiast na lepszy pomysł
+          zawartości
+          stronki przyjdzie jeszcze czas ✌️.</p>
+      </article>
+    </section>
+    <section class="section" id="Parę-słów-o-mnie">
+      <h2 class="section__header">Parę słów o mnie</h2>
+      <article class="article">
+        <p class="article__paragraph">Mam na imię <b>Ania</b> , rocznik '84' , mieszkam i pracuję w Białymstoku.</p>
+        <img class="article__imagePortrait" src="img/ania.jpg"
+          alt="Anna Dymczyk" />
+
+        <p class="article__paragraph">W 2008 roku skończyłam Politechnikę Białostocką jako mgr inż. budownictwa
+          komunikacyjnego,
+          czyli tzw.
+          <i>drogowiec</i>.
+        <p class="article__paragraph"> Mam za sobą ciężkie lata pracy na budowach dróg w całej Polsce. Dość nietypowe
+          jak na
+          kobietę zajęcie, ale
+          niestety na studiach nikt nie mówił
+          co i jak będzie wyglądało w praktyce. Po 6 latach pracy w terenie i zwiedzania kraju seria przypadków
+          sprawiła,
+          że
+          moje wspinanie się po szczeblach kariery w wykonawstwie robót dobiegło końca. Przyszła ówcześnie chwila
+          refleksji
+          i
+          chęć zmiany. Niestety drabina została ta sama, a zmieniły się tylko szczeble i trafiłam do pracy w urzędzie
+          związanym z moją branżą.</p>
+        <p class="article__paragraph">Po 6-ciu latach pracy w biurze dochodzę do wniosku, że trzeba zmienić drabinę.
+          Drugi raz w
+          moim dorosłym
+          życiu
+          przyszła taka sama refleksja i
+          tym
+          razem postanowiłam jej nie ignorować..... Więc jestem właśnie <em>tu i teraz</em>✌️.</p>
+
+        <p><button class="js-buttonShowTable button">Pokaż moje zdobyte doświadczenie</button></p>
+
+        <table class="table js-table js-hideTable">
+          <caption class="table__caption">Zdobyte doświadczenie</caption>
+          <tr>
+            <th class="table__cell table__cell--headerColumn" scope="col">Lata</th>
+            <th class="table__cell table__cell--headerColumn" scope="col">Miejscowość</th>
+            <th class="table__cell table__cell--headerColumn" scope="col">Miejsce </th>
+            <th class="table__cell table__cell--headerColumn" scope="col">Stanowisko</th>
+            <th class="table__cell table__cell--headerColumn" scope="col">Informacje dodatkowe</th>
+          </tr>
+          <tr>
+            <th class="table__cell table__cell--headerRow" scope="row">2003-2008</th>
+            <td class="table__cell">Białystok</td>
+            <td class="table__cell">Politechnika Białostocka-budownictwo</td>
+            <td class="table__cell">student</td>
+            <td class="table__cell">uzyskanie dyplomu mgr inż.</td>
+          </tr>
+          <tr>
+            <th class="table__cell table__cell--headerRow" scope="row">2008-2009</th>
+            <td class="table__cell">Ostrów Wielkopolski</td>
+            <td class="table__cell" rowspan="5">Wykonawstwo-budowa</td>
+            <td class="table__cell" rowspan="3">inżynier budowy</td>
+            <td class="table__cell" rowspan="2"></td>
+          </tr>
+          <tr>
+            <th class="table__cell table__cell--headerRow" scope="row">2009-2010</th>
+            <td class="table__cell">Wrocław</td>
+          </tr>
+          <tr>
+            <th class="table__cell table__cell--headerRow" scope="row">2011-2012</th>
+            <td class="table__cell">Białystok,Lublin</td>
+            <td class="table__cell">zdobycie uprawnień budowlanych</td>
+          </tr>
+          <tr>
+            <th class="table__cell table__cell--headerRow" scope="row">2012-2013</th>
+            <td class="table__cell">Kępno</td>
+            <td class="table__cell" rowspan="2">kierownik robót</td>
+            <td class="table__cell" rowspan="3"></td>
+          </tr>
+          <tr>
+            <th class="table__cell table__cell--headerRow" scope="row">2013-2014</th>
+            <td class="table__cell">Ciechanów,Białystok</td>
+          </tr>
+          <tr>
+            <th class="table__cell table__cell--headerRow" scope="row">2014-2021</th>
+            <td class="table__cell">Białystok/Bielsk Podlaski</td>
+            <td class="table__cell">Biuro Inwestora</td>
+            <td class="table__cell">specjalista, kierownik projektów</td>
+          </tr>
+        </table>
+
+      </article>
+      <hr class="section__break">
+      <article class="article">
+        <h3 class="article__header">Jaki mam cel ?</h3>
+        <p class="article__paragraph">Zamienić myśli w czyny, obrać inny kierunek w życiu, dokonać pozytywnej zmiany.
+          <br> Mam
+          nadzieję, że nie
+          zabraknie mi
+          wytrwałości, motywacji a przede wszystkim chęci, zaś moje wrodzone talenty <em>też</em> okażą się przydatne i
+          "trafione" w temacie.
+        </p>
+        <h3 class="article__header">Jaki jest plan ?</h3>
+        <p class="article__paragraph">Dobry 👍 i na pewno lepszy niż żaden. Najtrudniej jest zacząć, a to już mi
+          się udało. Zapisałam się na kurs i próbuję coś działać💪.</p>
+        <div class="article__container">
+          <img class="article__imageMountains" src="img/krajobraz.jpg"
+            alt="krajobraz górski Grecji" />
+        </div>
+        <h3 class="article__header">Trochę luźniej o mnie</h3>
+        <p class="article__paragraph"> Dusza artysty, humanisty i inżyniera jednocześnie :) Zaczynając kurs, o
+          programowaniu nie wiedziałam kompletnie nic, totalny laik.
+          Umiejętności obsługi komputera i programów posiadałam w zakresie niezbędnym do życia
+          i pracy w biurze.</p>
+
+      </article>
+    </section>
+    <section class="section" id="Mój-progress">
+      <h2 class="section__header">Mój <i>progress</i></h2>
+      <article class="article">
+        <p class="article__paragraph">Poniżej przedstawiam wybrane prace domowe i wizualne efekty kursu, krok po
+          kroku....sami oceńcie postępy 🤪.</p>
+        <h3 class="article__header">praca domowa tydzień 1</h3>
+        <p class="article__paragraph">Zadanie polegało na stworzeniu w programie do tego przeznaczonym algorytmu
+          czynności - w moim przypadku było to <a class="article__link"
+            href="https://iv.pl/images/e6c6365261df3d76ebfc72da36a306c2.png"
+            title="Algorytm zrobienia jourtu naturalnego" target="_blank" rel="noreferrer noopener">zrobienie jogurtu
+            naturalnego</a>.</p>
+
+        <h3 class="article__header">praca domowa tydzień 2</h3>
+        <p class="article__paragraph">Przy użyciu tzw. <i>dev tools</i> należało dokonać <a class="article__link"
+            href="https://iv.pl/images/be91658e7a7dc3c00acd3e0d37c72778.png" title="Zmieniona strona internetowa"
+            target="_blank" rel="noreferrer noopener">widocznych zmian na wybranej
+            stronie internetowej</a> oraz stworzyć pierwszą, bardzo prostą <a class="article__link"
+            href="https://codepen.io/Anna-Dymczyk/pen/WNROPZp" title="Projekt strony - 2 tydzień nauki" target="_blank"
+            rel="noreferrer noopener">stronę internetową.</a></p>
+
+        <h3 class="article__header">praca domowa tydzień 3</h3>
+        <p class="article__paragraph"> Trwał ciąg dalszy pracy ze <a class="article__link"
+            href="https://codepen.io/Anna-Dymczyk/full/MWJQVvp" title="Projekt strony - 3 tydzień nauki "
+            target="_blank" rel="noreferrer noopener">stroną
+            internetową.</a> przy użyciu kolejnych, nowo poznawanych narzędzi w HTML,CSS,JS.
+        </p>
+
+        <h3 class="article__header">praca domowa tydzień 4</h3>
+        <p class="article__paragraph"> Ten tydzień obejmował m.in. <a class="article__link"
+            href="https://codepen.io/Anna-Dymczyk/full/jOyKXjm" title="Projekt strony - 4 tydzień nauki "
+            target="_blank" rel="noreferrer noopener"><i>refactoring</i> strony zgodny z konwencją BEM </a> , a także
+          stworzenie prostego kalkulatora walut ( link wkrótce ).
+        </p>
+
+      </article>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <b>Autor :</b> Anna Dymczyk
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+.navigation {
+    background-color: rgb(207, 207, 207);
+    border-bottom: 2px rgb(10, 10, 10) solid;
+}
+
+.navigation__container {
+    max-width: 1000px;
+    padding: 10px;
+    margin: auto;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: rgb(79, 49, 104);
+}
+
+.navigation__link:hover {
+    color: rgb(211, 0, 0);
+    outline: none;
+}
+
+.navigation__link:active {
+    color: floralwhite;
+    background-color: rgb(209, 0, 0);
+    outline: none;
+}
+
+.navigation__list {
+    padding-left: 0px;
+    list-style: none;
+    font-weight: 700;
+}
+
+.navigation__item {
+    margin-bottom: 10px;
+}

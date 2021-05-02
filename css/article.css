@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.article {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.article__header {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.article__paragraph {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.article__imagePortrait {
+    display: block;
+    border-top-left-radius: 10%;
+    box-shadow: 10px 10px 30px 10px #383838;
+    margin: 40px auto 60px 0px;
+    width: 200px;
+}
+
+.article__container {
+    box-shadow: inset 0px 0px 28px 33px #f3f3f3;
+    border-radius: 100px;
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.article__imageMountains {
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    border-radius: 100px;
+    border: solid 2px #f3f3f3
+    
+}
+
+.article__link {
+    text-decoration: none;
+    color: rgb(79, 49, 104);
+}
+
+.article__link:hover {
+    color: rgb(211, 0, 0);
+    outline: none;
+}
+
+.article__link:active {
+    color: floralwhite;
+    background-color: rgb(209, 0, 0);
+    outline: none;
+}

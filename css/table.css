@@ -1,0 +1,31 @@
+.table {
+    font-size: 12px;
+    background-color: whitesmoke;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1000px;
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+.table__caption {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.table__cell {
+    border: 1px black solid;
+    padding: 2px 10px;
+}
+
+.table__cell--headerColumn {
+    background-color: rgb(56, 56, 56);
+    color: whitesmoke;
+}
+
+.table__cell--headerRow {
+    background-color: rgb(192, 192, 192);
+    color: rgb(10, 10, 10);
+}

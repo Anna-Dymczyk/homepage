@@ -1,0 +1,19 @@
+.header {
+    background-color: rgb(10, 10, 10);
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+.header__container {
+    max-width: 1000px;
+    padding: 10px;
+    margin: auto;
+}
+
+.header__header {
+    font-size: 30px;
+}
+
+.header__paragraph {
+    font-size: 20px;
+}
