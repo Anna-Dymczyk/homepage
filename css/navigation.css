@@ -5,32 +5,35 @@
 
 .navigation__container {
     max-width: 1000px;
-    padding: 10px;
     margin: auto;
 }
 
 .navigation__link {
     text-decoration: none;
-    color: rgb(79, 49, 104);
-}
-
-.navigation__link:hover {
-    color: rgb(211, 0, 0);
-    outline: none;
+    color: rgb(0, 0, 0);
+    margin: auto;
 }
 
 .navigation__link:active {
-    color: floralwhite;
-    background-color: rgb(209, 0, 0);
+    color: rgb(22, 22, 22);
     outline: none;
 }
 
-.navigation__list {
-    padding-left: 0px;
+.navigation__flexList {
+    display: flex;
     list-style: none;
     font-weight: 700;
+    margin: auto;
+    padding: 0px;
 }
 
-.navigation__item {
-    margin-bottom: 10px;
+.navigation__flexItem {
+    padding: 20px;
+    border-left: 1px solid rgb(233, 233, 233);
+    border-right: 1px solid rgb(233, 233, 233);
+    margin: auto 0px
+}
+
+.navigation__flexItem:hover {
+    background-color: rgb(233, 233, 233);
 }
